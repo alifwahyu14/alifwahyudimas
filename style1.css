@@ -1,0 +1,33 @@
+*,
+html {
+    margin: 0 ;
+    padding: 0 ;
+}
+
+body{
+    background-color: rgb(244, 246, 248);
+}
+
+div {
+    margin: 10px;
+}
+
+h3{
+    font-size: 100px;
+    margin: 3px;
+    text-align: center;
+}
+.ttd{
+    text-align: right;
+}
+p{
+    font-size: 50px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.surat{
+    margin: 7px;
+}
