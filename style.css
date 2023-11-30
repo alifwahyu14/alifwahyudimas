@@ -1,0 +1,86 @@
+*,
+html {
+    margin: 0 ;
+    padding: 0 ;
+}
+
+
+.container {
+    background-color: rgb(31, 240, 222) ;
+}
+
+.kotak {
+    background-color: brown;
+    width: 100%;
+    height: 10vh;
+    font-weight: 700;
+
+}
+
+.ul-kotak {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-kotak {
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: bisque;
+    font-size: 30px;
+}
+
+.li-kotak:hover{
+    background-color : rgb(212, 202, 202) ;
+    border-radius: 8px;
+
+}
+
+.a-kotak {
+    color: lightyellow;
+    text-decoration: none;
+}
+
+.kotak1 {
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.a-kotak1 {
+    background-color: brown;
+    width: 720px;
+    height: 480px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 80px;
+    box-shadow:20px 20px 15px 10px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow :20px 20px 15px 10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow:20px 20px 15px 10px rgba(0, 0, 0, 0.75);
+}
+
+.img-kotak1{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kotak2{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.kotak2-footer{
+    font-size: 40px;
+    color: aliceblue;
+}
